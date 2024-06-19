@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Arizonia&family=Birthstone&family=Carattere&family=Cherry+Bomb+One&family=Cookie&family=Great+Vibes&family=Poppins:wght@400;500;600;700&family=Sail&family=Satisfy&family=Ubuntu:wght@400;500;700&family=Ysabeau+Office:wght@100&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html{
+    font-family: 'Raleway', sans-serif;
+    }
+}
