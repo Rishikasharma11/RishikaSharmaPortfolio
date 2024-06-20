@@ -117,7 +117,7 @@ function Skills() {
     <>
      {/* ------------------------------------------------SKILLS-------------------------------------------------- */}
      {/* ------------------------------------------------Techs---------------------------------------------------- */}
-     <div className='md:px-46 lg:px-60 xl:px-80 pt-28 md:pt-40'
+     <div className='md:px-46 lg:px-60 xl:px-80 pt-28 md:pt-40 bg-[#e6dace] scroll-smooth'
      data-bgcolor="#070707"
      data-textcolor="#fffff"
      >
@@ -138,7 +138,7 @@ function Skills() {
     </div>
 
     {/* -----------------------------------------------Tools------------------------------------------------------- */}
-    <div className='md:px-46 lg:px-60 md:pt-10 xl:px-80'>
+    <div className='md:px-46 lg:px-60 md:pt-10 xl:px-80 bg-[#e6dace] scroll-smooth'>
     <h1 className='md:text-xl font-semibold text-center'><span className='md:text-xl text-[#5f22d9] font-extrabold'>Tools </span>I Use</h1>
     <div className='grid sm:grid-cols-4 grid-cols-2 gap-4 text-center py-8 px-12 sm:px-0'>
         {
