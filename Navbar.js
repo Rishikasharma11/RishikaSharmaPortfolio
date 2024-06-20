@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { NavLink, Link } from 'react-router-dom';
-import {FaBars, FaTimes} from 'react-icons'
+import {FaBars, FaTimes} from 'react-icons';
 
 
 const Navbar = () => {
@@ -58,12 +58,15 @@ const Navbar = () => {
         </div>
        
        {nav  && (
-        <ul className='flex flex-col pt-2 text-gray-600 justify-center items-center fixed top-0 left-0 w-full h-screen bg-[#f4ece6]'>
+        <ul 
+        onClick={() => setNav(!nav)}
+        className='flex flex-col pt-2 text-gray-600 justify-center items-center fixed top-0 left-0 w-full h-screen bg-[#f4ece6]'>
         {links.map(({id, link}) => (
          <li 
          key={id}
          className='text-4xl capitalize cursor-pointer py-6'>
-        {link}</li>
+        {link}
+        </li>
         ))}
        </ul>
        )}
