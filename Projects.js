@@ -5,19 +5,7 @@ import { Link } from "react-router-dom";
 
 
 const Projects = () => {
-  // const videoEl = useRef(null);
 
-  // const attemptPlay = () => {
-  //   videoEl &&
-  //     videoEl.current &&
-  //     videoEl.current.play().catch(error => {
-  //       console.error("Error attempting to play", error);
-  //     });
-  // };
-
-  // useEffect(() => {
-  //   attemptPlay();
-  // }, []);
   return (
     <>
     {/* ------------------------------------------------PROJECTS-------------------------------------------------- */}
@@ -82,13 +70,13 @@ const Projects = () => {
             <p className="text-black text-justify pt-2 text-sm">This project not only honed my programming skills but also provided valuable experience in developing real-time applications🛠️.</p>
 
             <div className="md:hidden block">
-            <img src={chatApp} alt='' className='px-2 md:px-0 w-[40%] md:w-[60%] mx-auto border-2 border-black m-5 rounded-lg'/>
+            <img src={chatApp} alt='' className='px-2 md:px-0 md:w-[60%] mx-auto border-2 border-black m-5 rounded-lg'/>
             </div> 
           </div>
         </div>
           
         <div className="bg-gray-500 mx-4 md:mx-0 hidden md:block">
-          <img src={chatApp} alt='' className='px-2 md:px-0 w-[40%] md:w-[60%]  mx-auto border-2 border-black my-14 rounded-lg'/>
+          <img src={chatApp} alt='' className='px-3 md:px-0 mx-auto border-2 border-black my-14 rounded-lg'/>
         </div> 
           
         </div>
